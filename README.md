@@ -8,8 +8,9 @@ The app was built for the purpose of demonstrating how to build a native mobile 
 Screenshots (Android)
 ---
 
-![image](https://github.com/leejaew/Playlist/blob/master/Screenshots/Screenshot_2014-01-26-16-51-14.png?raw=true =240x) ![image](https://github.com/leejaew/Playlist/blob/master/Screenshots/Screenshot_2014-01-26-16-51-30.png?raw=true =240x) 
-![image](https://github.com/leejaew/Playlist/blob/master/Screenshots/Screenshot_2014-01-26-16-52-29.png?raw=true =240x) ![image](https://github.com/leejaew/Playlist/blob/master/Screenshots/Screenshot_2014-01-26-16-53-13.png?raw=true =240x)
+![image](https://github.com/leejaew/Playlist/blob/master/Screenshots/Screenshot_2014-01-26-16-51-14.png?raw=true =216x394) ![image](https://github.com/leejaew/Playlist/blob/master/Screenshots/Screenshot_2014-01-26-16-51-30.png?raw=true =216x394) 
+
+![image](https://github.com/leejaew/Playlist/blob/master/Screenshots/Screenshot_2014-01-26-16-52-29.png?raw=true =216x394) ![image](https://github.com/leejaew/Playlist/blob/master/Screenshots/Screenshot_2014-01-26-16-53-13.png?raw=true =216x394)
 
 ---
 
