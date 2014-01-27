@@ -18,8 +18,3 @@ Demo Video (Android)
 ---
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/LgtwEWRsocw/0.jpg)](http://www.youtube.com/watch?v=LgtwEWRsocw)
 
----
-
-Download the android app from Google Play
----
-http://url.jael.ee/app-playlist
