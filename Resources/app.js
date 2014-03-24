@@ -1,10 +1,6 @@
 /*
  * YouTube Playlist App 
  * Project by Jae Lee @leejaew
- * Js module 'youtubeVideolist.js' by Karthi Ponnusamy
- * 						modified by Jae Lee @leejaew
- * 
- * Project requires Titanium Mobile SDK 1.8.0+.
  *  
  */
 

@@ -1,3 +1,8 @@
+/* 
+ *Original Js module 'youtubeVideolist.js' by Karthi Ponnusamy
+ * 
+ */
+
 exports.youtubeVideolist = function(title_name, playlist_id) {
 	
 	var isAndroid = Ti.Platform.osname === 'android';
@@ -72,7 +77,8 @@ exports.youtubeVideolist = function(title_name, playlist_id) {
 		}
 		
 		var tableView = Titanium.UI.createTableView({
-			top				: 0,
+			// top				: 0,
+			bottom			: !isAndroid ? '45dp' : 0,
 			backgroundColor	: '#fff',
 			data			: data
 		});
@@ -95,7 +101,8 @@ exports.youtubeVideolist = function(title_name, playlist_id) {
 				items			: [flexSpace, btnBack, flexSpace],
 				bottom 			: 0,
 				borderTop		: true,
-				barColor		: '#fff',
+				borderColor		: '#e1e1e1',
+				barColor		: '#efefef',
 				translucent		: true
 			});
 			
@@ -172,7 +179,7 @@ exports.youtubeVideolist = function(title_name, playlist_id) {
 	};
 
 	loader.onerror = function(e) {
-		Ti.API.debug(e.error);
+		//Ti.API.debug(e.error);
 		alert("Unable to connect to server");
 	};
 

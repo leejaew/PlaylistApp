@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.leejaew.playlist</id>
+    <id>com.leejaew.playlistapp</id>
     <name>Playlist</name>
-    <version>1.0</version>
-    <publisher>leejaew</publisher>
+    <version>1.1.0</version>
+    <publisher>Jae Lee</publisher>
     <url>http://jael.ee</url>
     <description>not specified</description>
-    <copyright>2014 by leejaew</copyright>
+    <copyright>2014 by Jae Lee</copyright>
     <icon>appicon.png</icon>
     <fullscreen>true</fullscreen>
     <navbar-hidden>true</navbar-hidden>
@@ -32,13 +32,19 @@
                 <key>UIPrerenderedIcon</key>
                 <false/>
                 <key>UIStatusBarHidden</key>
-                <false/>
+                <true/>
+                <!-->
                 <key>UIStatusBarStyle</key>
                 <string>UIStatusBarStyleDefault</string>
+               -->
             </dict>
         </plist>
     </ios>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <application android:theme="@android:style/Theme.Light"/>
+        </manifest>
+    </android>
     <mobileweb>
         <precache/>
         <splash>
@@ -51,10 +57,10 @@
     <deployment-targets>
         <target device="android">true</target>
         <target device="blackberry">false</target>
-        <target device="ipad">true</target>
+        <target device="ipad">false</target>
         <target device="iphone">true</target>
         <target device="mobileweb">false</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.2.0.GA</sdk-version>
+    <sdk-version>3.2.2.GA</sdk-version>
 </ti:app>
